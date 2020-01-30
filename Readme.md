@@ -2,7 +2,11 @@
 
 Here is an example ```.js``` implementation [online](https://www.eclipse.org/paho/clients/js/utility/).
 
-Tip! Split 2 windows: we'll use one for subscription and the other for publishing.
+You can retrieve your mqtt tokens [here](https://chatroom-token.poc.kpn-dsh.com/).
+
+Tip! 2 browsers on your screen: we'll use one for subscription and the other for publishing.
+
+
 ```
 Host:
 mqtt.poc.kpn-dsh.com
@@ -20,7 +24,7 @@ Username:
 Make up one!
 
 Password:
-You'll receive them!
+Paste contents of the mqtt token you received.
 
 Keepalive:
 60
@@ -51,6 +55,6 @@ Publish to topic:
 /tt/training/chatroom/<YOURNAME>
 ```
 
-## So what did we do?
+## So, that mqtt token thing...
 
 Here is a [website](http://jwt.io) to see contents of the token you used.
